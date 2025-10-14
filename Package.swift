@@ -12,7 +12,7 @@ let package = Package(
             targets: ["BIP39swift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.4.1")
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.9.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
